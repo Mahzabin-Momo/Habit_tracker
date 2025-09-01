@@ -1,16 +1,23 @@
 # habit_tracker_app
 
-A new Flutter project.
+# Habit Buddy 🧘‍♂️📱
 
-## Getting Started
+**Habit Buddy**
+is a simple and beautiful Flutter app to help you build and track habits consistently. 
+Whether you're trying to drink more water, exercise daily, or read regularly – Habit Buddy is here to keep you accountable.
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📅 Daily habit tracking
+- ✅ Mark habits as completed
+- 📊 Progress overview
+- 🎨 Clean and responsive UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Built With
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+
+
+   
+
