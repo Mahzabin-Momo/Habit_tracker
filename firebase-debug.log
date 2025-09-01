@@ -1,0 +1,54 @@
+[debug] [2025-08-19T20:30:57.065Z] ----------------------------------------------------------------------
+[debug] [2025-08-19T20:30:57.070Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lano\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init firestore
+[debug] [2025-08-19T20:30:57.071Z] CLI Version:   14.12.1
+[debug] [2025-08-19T20:30:57.071Z] Platform:      win32
+[debug] [2025-08-19T20:30:57.072Z] Node Version:  v23.10.0
+[debug] [2025-08-19T20:30:57.072Z] Time:          Tue Aug 19 2025 13:30:57 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-08-19T20:30:57.072Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-19T20:30:57.266Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-08-19T20:30:57.269Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-19T20:30:57.270Z] > authorizing via signed-in user (tmdsamin01@gmail.com)
+[debug] [2025-08-19T20:30:57.270Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Habbit Tracker\habit_tracker_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-08-19T20:31:07.597Z] Using project from CLI flag: habit-tracker-app-545df
+[debug] [2025-08-19T20:31:07.599Z] Checked if tokens are valid: true, expires at: 1755638701300
+[debug] [2025-08-19T20:31:07.599Z] Checked if tokens are valid: true, expires at: 1755638701300
+[debug] [2025-08-19T20:31:07.600Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/habit-tracker-app-545df [none]
+[debug] [2025-08-19T20:31:08.351Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/habit-tracker-app-545df 200
+[debug] [2025-08-19T20:31:08.351Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/habit-tracker-app-545df {"projectId":"habit-tracker-app-545df","projectNumber":"598439404757","displayName":"habit-tracker-app","name":"projects/habit-tracker-app-545df","resources":{"hostingSite":"habit-tracker-app-545df"},"state":"ACTIVE","etag":"1_ba2ac41f-67a6-46b4-8114-39928e0e6ceb"}
+[info] i  Using project habit-tracker-app-545df (habit-tracker-app) 
+[info] 
+=== Firestore Setup
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2025-08-19T20:31:08.603Z] Checked if tokens are valid: true, expires at: 1755638701300
+[debug] [2025-08-19T20:31:08.603Z] Checked if tokens are valid: true, expires at: 1755638701300
+[debug] [2025-08-19T20:31:08.603Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/habit-tracker-app-545df/databases [none]
+[debug] [2025-08-19T20:31:09.444Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/habit-tracker-app-545df/databases 200
+[debug] [2025-08-19T20:31:09.444Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/habit-tracker-app-545df/databases {"databases":[{"name":"projects/habit-tracker-app-545df/databases/(default)","uid":"8efedf75-9dd6-4406-a4ef-567cfc66a2a5","createTime":"2025-08-19T14:47:37.139264Z","updateTime":"2025-08-19T14:47:37.139264Z","locationId":"nam5","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-08-19T19:31:09.708693Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"s","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IOGtiOTbl48DMPCo7+2Sl48D"}]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
