@@ -10,8 +10,11 @@ Whether you're trying to drink more water, exercise daily, or read regularly –
 
 - 📅 Daily habit tracking
 - ✅ Mark habits as completed
-- 📊 Progress overview
+- 📊 Progress overvie<img width="963" height="1008" alt="Screenshot 2025-09-01 145215" src="https://github.com/user-attachments/assets/ae1ba484-444d-4edf-af35-0965d8947a4d" />
+w
 - 🎨 Clean and responsive UI
+- Firebase authentication
+- 
 
 ## 🛠️ Built With
 
@@ -20,4 +23,5 @@ Whether you're trying to drink more water, exercise daily, or read regularly –
 
 
    
+
 
